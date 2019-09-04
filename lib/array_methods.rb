@@ -6,6 +6,7 @@ def find_element_index(array, value_to_find)
     puts "Value #{array[count]} is at #{count}"
     if value_to_find == array[count]
       puts "FOUND!"
+    end
     count += 1
   end
 end
